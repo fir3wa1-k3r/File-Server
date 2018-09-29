@@ -46,7 +46,7 @@ def setup():
         print("[!]SOCKET ERROR..!! PLEASE TRY AGAIN")
     sock.bind(('',port))
     print("[+]SOCKET BINDED TO PORT "+str(port))
-    sock.listen(1)
+    sock.listen(1)   #Accepts only 1 connection request, Change it to accept more connections
     print("[+]LISTENING FOR INCOMING REQUESTS")
     while True:
         conn, addr = sock.accept()

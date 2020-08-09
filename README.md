@@ -1,2 +1,2 @@
 # File-Server
-A File Server built from scratch using Python 3
+A File Server (more of a wrapper) built from scratch using Python 3
